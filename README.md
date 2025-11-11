@@ -1,6 +1,6 @@
 # Parallel Merge Sort
 
-This project implements **sequential and parallel merge sort** in C++ using a task-based OpenMP abstraction (`omp_tasking.hpp`).
+This project implements **sequential and parallel merge sort** in C++ using omp_tasking.hpp.
 
 ## Files
 - `mergesort_seq_nocopy.cpp` — Sequential merge sort  
