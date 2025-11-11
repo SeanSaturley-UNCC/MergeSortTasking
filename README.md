@@ -11,6 +11,25 @@ This project implements **sequential and parallel merge sort** in C++ using a ta
 ## Usage
 Compile:
 ```bash
-make
+make mergesort_seq      # Compile sequential version
+make mergesort_par      # Compile parallel version
+
+```
+## Running Locally
+Sequentially
+```bash
+./mergesort_seq 1000000 42
+```
+
+Parallel
+```bash
+./mergesort_par 1000000 4 1000 42
+```
+
+## Running on Centaurus:
+Submit the job using Slurm with:
+```bash
+sbatch run_sbatch.sh
+```
 
 
