@@ -11,6 +11,6 @@ This project implements **sequential and parallel merge sort** in C++ using a ta
 ## Usage
 Compile:
 ```bash
-bash```
+make
 
 
